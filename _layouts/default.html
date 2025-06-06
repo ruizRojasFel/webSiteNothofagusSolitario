@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- SEO -->
+    <meta name="description" content="Página web de viajes en solitario" />
+    <!-- Favicon -->
+    <link rel="icon" href="/images/logo/favicon.ico" type="image/x-icon" />
+    <!-- Estilos -->
+  </head>
+  <!-- Cuerpo de la página -->
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <h1>NOTHOFAGUS SOLITARIO</h1>
+      <h4>Vamos a viajar para conocer, crecer y conectar</h4>
+      <nav>
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li>
+            <a href="#">Viajes</a>
+            <ul>
+              <li><a href="/travels/sanpedrodeatacama/">San Pedro de Atacama</a></li>
+              <li><a href="/travels/valledelelqui/">Valle del Elqui</a></li>
+              <li><a href="/travels/torresdelpaine/">Torres del Paine</a></li>
+            </ul>
+          </li>
+          <li><a href="/about/">Nosotros</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Contenido principal -->
+    <main>
+      {{ content }}
+    </main>
+    <!-- Pie de página -->
+    <footer>
+      <p>&copy; 2025 NOTHOFAGUS SOLITARIO. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
