@@ -1,5 +1,8 @@
 
 // JavaScript que inserta el año actual dentro del span con id "year"
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+document.addEventListener("DOMContentLoaded", function () {
+  const yearSpan = document.getElementById("year");
+  if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+  }
+});
